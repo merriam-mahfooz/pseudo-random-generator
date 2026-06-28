@@ -10,9 +10,9 @@ I got this idea after I learned about the generation of pseudo-random numbers in
 ## Formula
 
 The Linear Congruential Generator uses the following formula:
-
+```
 X(n+1) = (a*X(n)+c) mod m
-
+```
 Where:
 
 X(n) = Current number(seed), 
